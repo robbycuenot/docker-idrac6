@@ -3,7 +3,7 @@ FROM jlesage/baseimage-gui:debian-11
 ENV APP_NAME="iDRAC 6"  \
     IDRAC_PORT=443      \
     DISPLAY_WIDTH=1280   \
-    DISPLAY_HEIGHT=1024
+    DISPLAY_HEIGHT=1100
 
 COPY keycode-hack.c /keycode-hack.c
 
